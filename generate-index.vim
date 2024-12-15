@@ -19,6 +19,7 @@ exe "'<,'>vg^/^ norm! dd"
 "Note double space at end 
 exe "'<,'>norm! $v?\/\<CR>l\"ay^i[\<Esc>\"apa](\<Esc>A)  "
 
+" clean up href links title; i.e. remove hyphens and ext
 :%s/^\[\zs\([^]]*\).html\ze\]/\=substitute(submatch(1),'-',' ','g')/
 
 
