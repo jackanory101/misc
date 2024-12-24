@@ -3,7 +3,5 @@
 # Misc index
 
 :::index
-[food cgp](./food-cgp.html)  
-[pork curry cgp](./pork-curry-cgp.html)  
-[Tounacarra - interior](./townacarra/interior/index.html)  
+[Tounacarra - interior pictures](./townacarra/interior/index.html)  
 :::
