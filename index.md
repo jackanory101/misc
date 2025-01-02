@@ -3,6 +3,7 @@
 # Misc index
 
 :::index
-[Interior 1](./townacarra/interior/index.html)  
-[Interior 2](./townacarra/interior2/index.html)  
+[exterior](./townacarra/grid/index.html)  
+[interior 1](./townacarra/interior/index.html)  
+[interior 2](./townacarra/interior2/index.html)  
 :::
