@@ -112,7 +112,7 @@ nav {
 	display: flex;
 	justify-self: right;
 	align-self: flex-end;
-	padding-right: 21%;
+	padding-right: 10%;
 }
 nav a.current {
 	color: #5993a2;
@@ -436,7 +436,7 @@ footer {
 	/*nav*/
 		nav {
 			align-self: center;
-			padding-right: 3%;
+			padding-right: 10%;
 		}
 	/*display grid area*/
 		#grid-container {
