@@ -108,6 +108,10 @@ header h2 {
 	padding-bottom: 0.5rem;
 	font-size: var(--header-h2-font-size);
 }
+.phone {
+	color: inherit;
+	text-decoration: none;
+}
 nav {
 	display: flex;
 	justify-self: right;
