@@ -6,26 +6,37 @@
 		<title>Townacarra</title>
 		<link rel="stylesheet" href="styles.css" type="text/css" media="screen" title="no title" charset="utf-8">
 		<link rel="stylesheet" href="normalize.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<script src="lightbox.js"></script>
+		<style type="text/css" media="screen">
+			:root {
+				--header-background-image: url("images/full/057-241104_1405_02.jpg");
+				--header-background-position: 70% 68%;
+				--header-background-size: cover;
+			}
+			@media (max-width: 750px) {
+				:root {
+					--header-background-position: 10% 68%;
+					--header-background-size: cover;
+				}
+			}
+		</style>
 	</head>
 	<body>
 		<div id="grid-container">
-			<nav></nav>
+			<nav>
+<ul><li><a class="current" href="index.html">One</a></li><li><a href="index-2.html">Two</a></li></ul>
+			</nav>
 			<header>
 				<h1>Townacarra</h1>
-				<h2>Lettergesh East, Renvyle, Co. Galway</h2>
+				<h2>Lettergesh East, Renvyle, Co. Galway<br><span style="font-size:12px">€350,000 ono &nbsp;&nbsp;&nbsp;&nbsp;Contact: +61 404 123 235</span></h2>
 			</header>
 			<main>
 				<h2></h2>
-				<ul id="gallery">
+				<ul class="gallery">
 					<li id="img1" class="col-span-1 row-span-1">
-						<a href="#image1">
-								<img src="images/thumb/001-241028_0915_02.jpg" class="thumb">
-						</a>
-						<div id="image1" class="overlay">
-							<a class="overlay-close" href="#img1">
-								<img src="images/full/001-241028_0915_02.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+							<img loading="lazy" src="images/thumb/001-241028_0915_02.jpg" class="thumbnail" data-full="images/full/001-241028_0915_02.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>View from main road R340 of Townacarra</span>
 										<span>Clouds on Ben Choona behind house</span>
@@ -34,19 +45,12 @@
 										<span>2024-10-28</span>
 										<span>&nbsp;&nbsp;(001-241028_0915_02.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
 					<li id="img2" class="col-span-1 row-span-1">
-						<a href="#image2">
-								<img src="images/thumb/002-241108_1717_01.jpg" class="thumb">
-						</a>
-						<div id="image2" class="overlay">
-							<a class="overlay-close" href="#img2">
-								<img src="images/full/002-241108_1717_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+							<img loading="lazy" src="images/thumb/002-241108_1717_01.jpg" class="thumbnail" data-full="images/full/002-241108_1717_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Ben Choona and Townacarra</span>
 										<span>From R340 main road</span>
@@ -55,19 +59,12 @@
 										<span>2024-11-08</span>
 										<span>&nbsp;&nbsp;(002-241108_1717_01.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
 					<li id="img3" class="col-span-1 row-span-1">
-						<a href="#image3">
-								<img src="images/thumb/003-241108_1706_01.jpg" class="thumb">
-						</a>
-						<div id="image3" class="overlay">
-							<a class="overlay-close" href="#img3">
-								<img src="images/full/003-241108_1706_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+							<img loading="lazy" src="images/thumb/003-241108_1706_01.jpg" class="thumbnail" data-full="images/full/003-241108_1706_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Lane leading down from Townacarra</span>
 										<span></span>
@@ -76,19 +73,12 @@
 										<span>2024-11-08</span>
 										<span>&nbsp;&nbsp;(003-241108_1706_01.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
 					<li id="img4" class="col-span-1 row-span-1">
-						<a href="#image4">
-								<img src="images/thumb/004-241101_1211_01.jpg" class="thumb">
-						</a>
-						<div id="image4" class="overlay">
-							<a class="overlay-close" href="#img4">
-								<img src="images/full/004-241101_1211_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+							<img loading="lazy" src="images/thumb/004-241101_1211_01.jpg" class="thumbnail" data-full="images/full/004-241101_1211_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Main house</span>
 										<span>Townacarra with Ben Choona in background</span>
@@ -97,19 +87,12 @@
 										<span>2024-11-01</span>
 										<span>&nbsp;&nbsp;(004-241101_1211_01.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
 					<li id="img5" class="col-span-1 row-span-1">
-						<a href="#image5">
-								<img src="images/thumb/005-241110_1057_03.jpg" class="thumb">
-						</a>
-						<div id="image5" class="overlay">
-							<a class="overlay-close" href="#img5">
-								<img src="images/full/005-241110_1057_03.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+							<img loading="lazy" src="images/thumb/005-241110_1057_03.jpg" class="thumbnail" data-full="images/full/005-241110_1057_03.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Main house</span>
 										<span>Townacarra with Ben Choona in background</span>
@@ -118,19 +101,12 @@
 										<span>2024-11-10</span>
 										<span>&nbsp;&nbsp;(005-241110_1057_03.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
 					<li id="img6" class="col-span-1 row-span-1">
-						<a href="#image6">
-								<img src="images/thumb/006-241110_1212_01-j.jpg" class="thumb">
-						</a>
-						<div id="image6" class="overlay">
-							<a class="overlay-close" href="#img6">
-								<img src="images/full/006-241110_1212_01-j.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+							<img loading="lazy" src="images/thumb/006-241110_1212_01-j.jpg" class="thumbnail" data-full="images/full/006-241110_1212_01-j.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Main house</span>
 										<span>Townacarra with Ben Choona in background</span>
@@ -139,19 +115,12 @@
 										<span>2024-11-10</span>
 										<span>&nbsp;&nbsp;(006-241110_1212_01-j.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
 					<li id="img7" class="col-span-1 row-span-1">
-						<a href="#image7">
-								<img src="images/thumb/007-241104_0833_01.jpg" class="thumb">
-						</a>
-						<div id="image7" class="overlay">
-							<a class="overlay-close" href="#img7">
-								<img src="images/full/007-241104_0833_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+							<img loading="lazy" src="images/thumb/007-241104_0833_01.jpg" class="thumbnail" data-full="images/full/007-241104_0833_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Main house</span>
 										<span>Townacarra with Ben Choona in background</span>
@@ -160,19 +129,12 @@
 										<span>2024-11-04</span>
 										<span>&nbsp;&nbsp;(007-241104_0833_01.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
 					<li id="img8" class="col-span-1 row-span-1">
-						<a href="#image8">
-								<img src="images/thumb/008-241110_1213_01-j.jpg" class="thumb">
-						</a>
-						<div id="image8" class="overlay">
-							<a class="overlay-close" href="#img8">
-								<img src="images/full/008-241110_1213_01-j.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+							<img loading="lazy" src="images/thumb/008-241110_1213_01-j.jpg" class="thumbnail" data-full="images/full/008-241110_1213_01-j.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Main house</span>
 										<span>Townacarra with Ben Choona in background</span>
@@ -181,1212 +143,728 @@
 										<span>2024-11-10</span>
 										<span>&nbsp;&nbsp;(008-241110_1213_01-j.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
 					<li id="img9" class="col-span-1 row-span-1">
-						<a href="#image9">
-								<img src="images/thumb/009-241104_0958_02.jpg" class="thumb">
-						</a>
-						<div id="image9" class="overlay">
-							<a class="overlay-close" href="#img9">
-								<img src="images/full/009-241104_0958_02.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
-									<div class="top-group hidden">
-										<span>Main house</span>
-										<span>Track to Loch Muc at left</span>
-									</div>
-									<div class="bottom-group hidden">
-										<span>2024-11-04</span>
-										<span>&nbsp;&nbsp;(009-241104_0958_02.jpg)</span>
-									</div>
-								</div>
-							</a>
-						</div>
-					</li>
-					<li id="img10" class="col-span-1 row-span-1">
-						<a href="#image10">
-								<img src="images/thumb/010-241104_1003_01.jpg" class="thumb">
-						</a>
-						<div id="image10" class="overlay">
-							<a class="overlay-close" href="#img10">
-								<img src="images/full/010-241104_1003_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+							<img loading="lazy" src="images/thumb/009-241104_1003_01.jpg" class="thumbnail" data-full="images/full/009-241104_1003_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Main house</span>
 										<span>Part view of Mweelrea Co. Mayo to right</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-04</span>
-										<span>&nbsp;&nbsp;(010-241104_1003_01.jpg)</span>
+										<span>&nbsp;&nbsp;(009-241104_1003_01.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img11" class="col-span-1 row-span-1">
-						<a href="#image11">
-								<img src="images/thumb/011-241104_1005_04.jpg" class="thumb">
-						</a>
-						<div id="image11" class="overlay">
-							<a class="overlay-close" href="#img11">
-								<img src="images/full/011-241104_1005_04.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img10" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/010-241104_1005_04.jpg" class="thumbnail" data-full="images/full/010-241104_1005_04.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Lane leading from main house</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-04</span>
-										<span>&nbsp;&nbsp;(011-241104_1005_04.jpg)</span>
+										<span>&nbsp;&nbsp;(010-241104_1005_04.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img12" class="col-span-1 row-span-1">
-						<a href="#image12">
-								<img src="images/thumb/012-241110_1057_02.jpg" class="thumb">
-						</a>
-						<div id="image12" class="overlay">
-							<a class="overlay-close" href="#img12">
-								<img src="images/full/012-241110_1057_02.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img11" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/011-241110_1057_02.jpg" class="thumbnail" data-full="images/full/011-241110_1057_02.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Lane leading from main house</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-10</span>
-										<span>&nbsp;&nbsp;(012-241110_1057_02.jpg)</span>
+										<span>&nbsp;&nbsp;(011-241110_1057_02.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img13" class="col-span-1 row-span-1">
-						<a href="#image13">
-								<img src="images/thumb/013-241110_1045_06.jpg" class="thumb">
-						</a>
-						<div id="image13" class="overlay">
-							<a class="overlay-close" href="#img13">
-								<img src="images/full/013-241110_1045_06.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img12" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/012-241110_1045_06.jpg" class="thumbnail" data-full="images/full/012-241110_1045_06.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Main house and stone cottage</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-10</span>
-										<span>&nbsp;&nbsp;(013-241110_1045_06.jpg)</span>
+										<span>&nbsp;&nbsp;(012-241110_1045_06.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
+					</li>
+					<li id="img13" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/013-241110_1046_01.jpg" class="thumbnail" data-full="images/full/013-241110_1046_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
+									<div class="top-group hidden">
+										<span>Rear of main house</span>
+										<span>Townacarra</span>
+									</div>
+									<div class="bottom-group hidden">
+										<span>2024-11-10</span>
+										<span>&nbsp;&nbsp;(013-241110_1046_01.jpg)</span>
+									</div>
+							</div>
 					</li>
 					<li id="img14" class="col-span-1 row-span-1">
-						<a href="#image14">
-								<img src="images/thumb/014-241110_1046_01.jpg" class="thumb">
-						</a>
-						<div id="image14" class="overlay">
-							<a class="overlay-close" href="#img14">
-								<img src="images/full/014-241110_1046_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+							<img loading="lazy" src="images/thumb/014-241110_1047_01.jpg" class="thumbnail" data-full="images/full/014-241110_1047_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Rear of main house</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-10</span>
-										<span>&nbsp;&nbsp;(014-241110_1046_01.jpg)</span>
+										<span>&nbsp;&nbsp;(014-241110_1047_01.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
 					<li id="img15" class="col-span-1 row-span-1">
-						<a href="#image15">
-								<img src="images/thumb/015-241110_1047_01.jpg" class="thumb">
-						</a>
-						<div id="image15" class="overlay">
-							<a class="overlay-close" href="#img15">
-								<img src="images/full/015-241110_1047_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
-									<div class="top-group hidden">
-										<span>Rear of main house</span>
-										<span>Townacarra</span>
-									</div>
-									<div class="bottom-group hidden">
-										<span>2024-11-10</span>
-										<span>&nbsp;&nbsp;(015-241110_1047_01.jpg)</span>
-									</div>
-								</div>
-							</a>
-						</div>
-					</li>
-					<li id="img16" class="col-span-1 row-span-1">
-						<a href="#image16">
-								<img src="images/thumb/016-241110_1048_01.jpg" class="thumb">
-						</a>
-						<div id="image16" class="overlay">
-							<a class="overlay-close" href="#img16">
-								<img src="images/full/016-241110_1048_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+							<img loading="lazy" src="images/thumb/015-241110_1048_01.jpg" class="thumbnail" data-full="images/full/015-241110_1048_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Rear of main house. Stone cottage visible in background</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-10</span>
-										<span>&nbsp;&nbsp;(016-241110_1048_01.jpg)</span>
+										<span>&nbsp;&nbsp;(015-241110_1048_01.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img17" class="col-span-1 row-span-1">
-						<a href="#image17">
-								<img src="images/thumb/017-241104_0956_01.jpg" class="thumb">
-						</a>
-						<div id="image17" class="overlay">
-							<a class="overlay-close" href="#img17">
-								<img src="images/full/017-241104_0956_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img16" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/016-241104_0956_01.jpg" class="thumbnail" data-full="images/full/016-241104_0956_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Rear of main house</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-04</span>
-										<span>&nbsp;&nbsp;(017-241104_0956_01.jpg)</span>
+										<span>&nbsp;&nbsp;(016-241104_0956_01.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img18" class="col-span-1 row-span-1">
-						<a href="#image18">
-								<img src="images/thumb/018-241104_0957_01.jpg" class="thumb">
-						</a>
-						<div id="image18" class="overlay">
-							<a class="overlay-close" href="#img18">
-								<img src="images/full/018-241104_0957_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img17" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/017-241104_0957_01.jpg" class="thumbnail" data-full="images/full/017-241104_0957_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>South side of main house</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-04</span>
-										<span>&nbsp;&nbsp;(018-241104_0957_01.jpg)</span>
+										<span>&nbsp;&nbsp;(017-241104_0957_01.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img19" class="col-span-1 row-span-1">
-						<a href="#image19">
-								<img src="images/thumb/019-241104_1000_01.jpg" class="thumb">
-						</a>
-						<div id="image19" class="overlay">
-							<a class="overlay-close" href="#img19">
-								<img src="images/full/019-241104_1000_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
-									<div class="top-group hidden">
-										<span>North side of main house. Stone cottage visible in background.</span>
-										<span>Townacarra</span>
-									</div>
-									<div class="bottom-group hidden">
-										<span>2024-11-04</span>
-										<span>&nbsp;&nbsp;(019-241104_1000_01.jpg)</span>
-									</div>
-								</div>
-							</a>
-						</div>
-					</li>
-					<li id="img20" class="col-span-1 row-span-1">
-						<a href="#image20">
-								<img src="images/thumb/020-241104_1001_01.jpg" class="thumb">
-						</a>
-						<div id="image20" class="overlay">
-							<a class="overlay-close" href="#img20">
-								<img src="images/full/020-241104_1001_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img18" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/018-241104_1001_01.jpg" class="thumbnail" data-full="images/full/018-241104_1001_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Rear of main house. Stone cottage visible in background</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-04</span>
-										<span>&nbsp;&nbsp;(020-241104_1001_01.jpg)</span>
+										<span>&nbsp;&nbsp;(018-241104_1001_01.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img21" class="col-span-1 row-span-1">
-						<a href="#image21">
-								<img src="images/thumb/022-241110_1044_04.jpg" class="thumb">
-						</a>
-						<div id="image21" class="overlay">
-							<a class="overlay-close" href="#img21">
-								<img src="images/full/022-241110_1044_04.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img19" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/019-241110_1044_04.jpg" class="thumbnail" data-full="images/full/019-241110_1044_04.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Main house</span>
 										<span>Townacarra. Mweelrea Co Mayo visible in background</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-10</span>
-										<span>&nbsp;&nbsp;(022-241110_1044_04.jpg)</span>
+										<span>&nbsp;&nbsp;(019-241110_1044_04.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img22" class="col-span-1 row-span-1">
-						<a href="#image22">
-								<img src="images/thumb/023-241110_1043_05.jpg" class="thumb">
-						</a>
-						<div id="image22" class="overlay">
-							<a class="overlay-close" href="#img22">
-								<img src="images/full/023-241110_1043_05.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img20" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/020-241110_1043_05.jpg" class="thumbnail" data-full="images/full/020-241110_1043_05.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>South side of main house</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-10</span>
-										<span>&nbsp;&nbsp;(023-241110_1043_05.jpg)</span>
+										<span>&nbsp;&nbsp;(020-241110_1043_05.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img23" class="col-span-1 row-span-1">
-						<a href="#image23">
-								<img src="images/thumb/024-241105_0759_01.jpg" class="thumb">
-						</a>
-						<div id="image23" class="overlay">
-							<a class="overlay-close" href="#img23">
-								<img src="images/full/024-241105_0759_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img21" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/021-241105_0759_01.jpg" class="thumbnail" data-full="images/full/021-241105_0759_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>South side of main house</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-05</span>
-										<span>&nbsp;&nbsp;(024-241105_0759_01.jpg)</span>
+										<span>&nbsp;&nbsp;(021-241105_0759_01.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img24" class="col-span-1 row-span-1">
-						<a href="#image24">
-								<img src="images/thumb/025-241110_1044_03.jpg" class="thumb">
-						</a>
-						<div id="image24" class="overlay">
-							<a class="overlay-close" href="#img24">
-								<img src="images/full/025-241110_1044_03.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img22" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/022-241110_1044_03.jpg" class="thumbnail" data-full="images/full/022-241110_1044_03.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>South side of main house</span>
 										<span>Townacarra with Ben Choona in background</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-10</span>
-										<span>&nbsp;&nbsp;(025-241110_1044_03.jpg)</span>
+										<span>&nbsp;&nbsp;(022-241110_1044_03.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img25" class="col-span-1 row-span-1">
-						<a href="#image25">
-								<img src="images/thumb/026-241110_1043_04.jpg" class="thumb">
-						</a>
-						<div id="image25" class="overlay">
-							<a class="overlay-close" href="#img25">
-								<img src="images/full/026-241110_1043_04.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img23" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/023-241110_1043_04.jpg" class="thumbnail" data-full="images/full/023-241110_1043_04.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>South side of main house</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-10</span>
-										<span>&nbsp;&nbsp;(026-241110_1043_04.jpg)</span>
+										<span>&nbsp;&nbsp;(023-241110_1043_04.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img26" class="col-span-1 row-span-1">
-						<a href="#image26">
-								<img src="images/thumb/027-241110_1045_03.jpg" class="thumb">
-						</a>
-						<div id="image26" class="overlay">
-							<a class="overlay-close" href="#img26">
-								<img src="images/full/027-241110_1045_03.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img24" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/024-241110_1045_03.jpg" class="thumbnail" data-full="images/full/024-241110_1045_03.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Rear of main house. </span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-10</span>
-										<span>&nbsp;&nbsp;(027-241110_1045_03.jpg)</span>
+										<span>&nbsp;&nbsp;(024-241110_1045_03.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img27" class="col-span-1 row-span-1">
-						<a href="#image27">
-								<img src="images/thumb/028-241110_1045_05.jpg" class="thumb">
-						</a>
-						<div id="image27" class="overlay">
-							<a class="overlay-close" href="#img27">
-								<img src="images/full/028-241110_1045_05.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img25" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/025-241110_1045_05.jpg" class="thumbnail" data-full="images/full/025-241110_1045_05.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Rear entrance of main house</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-10</span>
-										<span>&nbsp;&nbsp;(028-241110_1045_05.jpg)</span>
+										<span>&nbsp;&nbsp;(025-241110_1045_05.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
+					</li>
+					<li id="img26" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/026-241107_0951_01.jpg" class="thumbnail" data-full="images/full/026-241107_0951_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
+									<div class="top-group hidden">
+										<span>Rear of main house. </span>
+										<span>Townacarra</span>
+									</div>
+									<div class="bottom-group hidden">
+										<span>2024-11-07</span>
+										<span>&nbsp;&nbsp;(026-241107_0951_01.jpg)</span>
+									</div>
+							</div>
+					</li>
+					<li id="img27" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/027-241107_0952_01.jpg" class="thumbnail" data-full="images/full/027-241107_0952_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
+									<div class="top-group hidden">
+										<span>Rear of main house. </span>
+										<span>Townacarra</span>
+									</div>
+									<div class="bottom-group hidden">
+										<span>2024-11-07</span>
+										<span>&nbsp;&nbsp;(027-241107_0952_01.jpg)</span>
+									</div>
+							</div>
 					</li>
 					<li id="img28" class="col-span-1 row-span-1">
-						<a href="#image28">
-								<img src="images/thumb/029-241105_0759_02.jpg" class="thumb">
-						</a>
-						<div id="image28" class="overlay">
-							<a class="overlay-close" href="#img28">
-								<img src="images/full/029-241105_0759_02.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
-									<div class="top-group hidden">
-										<span>Rear of main house. </span>
-										<span>Townacarra</span>
-									</div>
-									<div class="bottom-group hidden">
-										<span>2024-11-05</span>
-										<span>&nbsp;&nbsp;(029-241105_0759_02.jpg)</span>
-									</div>
-								</div>
-							</a>
-						</div>
-					</li>
-					<li id="img29" class="col-span-1 row-span-1">
-						<a href="#image29">
-								<img src="images/thumb/030-241107_0951_01.jpg" class="thumb">
-						</a>
-						<div id="image29" class="overlay">
-							<a class="overlay-close" href="#img29">
-								<img src="images/full/030-241107_0951_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
-									<div class="top-group hidden">
-										<span>Rear of main house. </span>
-										<span>Townacarra</span>
-									</div>
-									<div class="bottom-group hidden">
-										<span>2024-11-07</span>
-										<span>&nbsp;&nbsp;(030-241107_0951_01.jpg)</span>
-									</div>
-								</div>
-							</a>
-						</div>
-					</li>
-					<li id="img30" class="col-span-1 row-span-1">
-						<a href="#image30">
-								<img src="images/thumb/031-241107_0952_01.jpg" class="thumb">
-						</a>
-						<div id="image30" class="overlay">
-							<a class="overlay-close" href="#img30">
-								<img src="images/full/031-241107_0952_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
-									<div class="top-group hidden">
-										<span>Rear of main house. </span>
-										<span>Townacarra</span>
-									</div>
-									<div class="bottom-group hidden">
-										<span>2024-11-07</span>
-										<span>&nbsp;&nbsp;(031-241107_0952_01.jpg)</span>
-									</div>
-								</div>
-							</a>
-						</div>
-					</li>
-					<li id="img31" class="col-span-1 row-span-1">
-						<a href="#image31">
-								<img src="images/thumb/032-241110_1049_01.jpg" class="thumb">
-						</a>
-						<div id="image31" class="overlay">
-							<a class="overlay-close" href="#img31">
-								<img src="images/full/032-241110_1049_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+							<img loading="lazy" src="images/thumb/028-241110_1049_01.jpg" class="thumbnail" data-full="images/full/028-241110_1049_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Main house, cottage and shed</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-10</span>
-										<span>&nbsp;&nbsp;(032-241110_1049_01.jpg)</span>
+										<span>&nbsp;&nbsp;(028-241110_1049_01.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img32" class="col-span-1 row-span-1">
-						<a href="#image32">
-								<img src="images/thumb/033-241110_1051_02.jpg" class="thumb">
-						</a>
-						<div id="image32" class="overlay">
-							<a class="overlay-close" href="#img32">
-								<img src="images/full/033-241110_1051_02.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img29" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/029-241110_1051_02.jpg" class="thumbnail" data-full="images/full/029-241110_1051_02.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Stone cottage and shed with main house in background</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-10</span>
-										<span>&nbsp;&nbsp;(033-241110_1051_02.jpg)</span>
+										<span>&nbsp;&nbsp;(029-241110_1051_02.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img33" class="col-span-1 row-span-1">
-						<a href="#image33">
-								<img src="images/thumb/034-241104_0822_02.jpg" class="thumb">
-						</a>
-						<div id="image33" class="overlay">
-							<a class="overlay-close" href="#img33">
-								<img src="images/full/034-241104_0822_02.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
-									<div class="top-group hidden">
-										<span>Stone shed</span>
-										<span>Ben Choona in background</span>
-									</div>
-									<div class="bottom-group hidden">
-										<span>2024-11-04</span>
-										<span>&nbsp;&nbsp;(034-241104_0822_02.jpg)</span>
-									</div>
-								</div>
-							</a>
-						</div>
-					</li>
-					<li id="img34" class="col-span-1 row-span-1">
-						<a href="#image34">
-								<img src="images/thumb/035-241104_0953_01.jpg" class="thumb">
-						</a>
-						<div id="image34" class="overlay">
-							<a class="overlay-close" href="#img34">
-								<img src="images/full/035-241104_0953_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img30" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/030-241104_0953_01.jpg" class="thumbnail" data-full="images/full/030-241104_0953_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Stone cottage</span>
 										<span>Ben Choona in background</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-04</span>
-										<span>&nbsp;&nbsp;(035-241104_0953_01.jpg)</span>
+										<span>&nbsp;&nbsp;(030-241104_0953_01.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img35" class="col-span-1 row-span-1">
-						<a href="#image35">
-								<img src="images/thumb/036-241104_0954_01.jpg" class="thumb">
-						</a>
-						<div id="image35" class="overlay">
-							<a class="overlay-close" href="#img35">
-								<img src="images/full/036-241104_0954_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img31" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/031-241104_0954_01.jpg" class="thumbnail" data-full="images/full/031-241104_0954_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Stone cottage, main house in background</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-04</span>
-										<span>&nbsp;&nbsp;(036-241104_0954_01.jpg)</span>
+										<span>&nbsp;&nbsp;(031-241104_0954_01.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img36" class="col-span-1 row-span-1">
-						<a href="#image36">
-								<img src="images/thumb/037-241104_0954_02.jpg" class="thumb">
-						</a>
-						<div id="image36" class="overlay">
-							<a class="overlay-close" href="#img36">
-								<img src="images/full/037-241104_0954_02.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img32" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/032-241104_0954_02.jpg" class="thumbnail" data-full="images/full/032-241104_0954_02.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Stone cottage and shed</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-04</span>
-										<span>&nbsp;&nbsp;(037-241104_0954_02.jpg)</span>
+										<span>&nbsp;&nbsp;(032-241104_0954_02.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img37" class="col-span-1 row-span-1">
-						<a href="#image37">
-								<img src="images/thumb/038-241104_0955_01.jpg" class="thumb">
-						</a>
-						<div id="image37" class="overlay">
-							<a class="overlay-close" href="#img37">
-								<img src="images/full/038-241104_0955_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img33" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/033-241104_0955_01.jpg" class="thumbnail" data-full="images/full/033-241104_0955_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Stone cottage and shed, main house in background</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-04</span>
-										<span>&nbsp;&nbsp;(038-241104_0955_01.jpg)</span>
+										<span>&nbsp;&nbsp;(033-241104_0955_01.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img38" class="col-span-1 row-span-1">
-						<a href="#image38">
-								<img src="images/thumb/039-241104_0955_02.jpg" class="thumb">
-						</a>
-						<div id="image38" class="overlay">
-							<a class="overlay-close" href="#img38">
-								<img src="images/full/039-241104_0955_02.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
-									<div class="top-group hidden">
-										<span>Rear of stone cottage</span>
-										<span>Townacarra</span>
-									</div>
-									<div class="bottom-group hidden">
-										<span>2024-11-04</span>
-										<span>&nbsp;&nbsp;(039-241104_0955_02.jpg)</span>
-									</div>
-								</div>
-							</a>
-						</div>
-					</li>
-					<li id="img39" class="col-span-1 row-span-1">
-						<a href="#image39">
-								<img src="images/thumb/040-241104_0956_02.jpg" class="thumb">
-						</a>
-						<div id="image39" class="overlay">
-							<a class="overlay-close" href="#img39">
-								<img src="images/full/040-241104_0956_02.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img34" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/034-241104_0956_02.jpg" class="thumbnail" data-full="images/full/034-241104_0956_02.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Stone cottage and shed</span>
 										<span>Townacarra with Ben Choona in background</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-04</span>
-										<span>&nbsp;&nbsp;(040-241104_0956_02.jpg)</span>
+										<span>&nbsp;&nbsp;(034-241104_0956_02.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img40" class="col-span-1 row-span-1">
-						<a href="#image40">
-								<img src="images/thumb/041-241105_0809_01.jpg" class="thumb">
-						</a>
-						<div id="image40" class="overlay">
-							<a class="overlay-close" href="#img40">
-								<img src="images/full/041-241105_0809_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img35" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/035-241105_0809_01.jpg" class="thumbnail" data-full="images/full/035-241105_0809_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Stone shed</span>
 										<span>Townacarra with Ben Choona in background</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-05</span>
-										<span>&nbsp;&nbsp;(041-241105_0809_01.jpg)</span>
+										<span>&nbsp;&nbsp;(035-241105_0809_01.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img41" class="col-span-1 row-span-1">
-						<a href="#image41">
-								<img src="images/thumb/042-241105_0809_02.jpg" class="thumb">
-						</a>
-						<div id="image41" class="overlay">
-							<a class="overlay-close" href="#img41">
-								<img src="images/full/042-241105_0809_02.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img36" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/036-241105_0809_02.jpg" class="thumbnail" data-full="images/full/036-241105_0809_02.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Stone cottage</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-05</span>
-										<span>&nbsp;&nbsp;(042-241105_0809_02.jpg)</span>
+										<span>&nbsp;&nbsp;(036-241105_0809_02.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img42" class="col-span-1 row-span-1">
-						<a href="#image42">
-								<img src="images/thumb/043-241105_0810_01.jpg" class="thumb">
-						</a>
-						<div id="image42" class="overlay">
-							<a class="overlay-close" href="#img42">
-								<img src="images/full/043-241105_0810_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img37" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/037-241105_0810_01.jpg" class="thumbnail" data-full="images/full/037-241105_0810_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Stone shed</span>
 										<span>Ben Choona in background</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-05</span>
-										<span>&nbsp;&nbsp;(043-241105_0810_01.jpg)</span>
+										<span>&nbsp;&nbsp;(037-241105_0810_01.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img43" class="col-span-1 row-span-1">
-						<a href="#image43">
-								<img src="images/thumb/044-241105_0810_02.jpg" class="thumb">
-						</a>
-						<div id="image43" class="overlay">
-							<a class="overlay-close" href="#img43">
-								<img src="images/full/044-241105_0810_02.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img38" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/038-241105_0810_02.jpg" class="thumbnail" data-full="images/full/038-241105_0810_02.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Stone cottage</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-05</span>
-										<span>&nbsp;&nbsp;(044-241105_0810_02.jpg)</span>
+										<span>&nbsp;&nbsp;(038-241105_0810_02.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img44" class="col-span-1 row-span-1">
-						<a href="#image44">
-								<img src="images/thumb/045-241105_0810_03.jpg" class="thumb">
-						</a>
-						<div id="image44" class="overlay">
-							<a class="overlay-close" href="#img44">
-								<img src="images/full/045-241105_0810_03.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img39" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/039-241105_0810_03.jpg" class="thumbnail" data-full="images/full/039-241105_0810_03.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Stone cottage, main house in background</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-05</span>
-										<span>&nbsp;&nbsp;(045-241105_0810_03.jpg)</span>
+										<span>&nbsp;&nbsp;(039-241105_0810_03.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img45" class="col-span-1 row-span-1">
-						<a href="#image45">
-								<img src="images/thumb/046-241105_0810_04.jpg" class="thumb">
-						</a>
-						<div id="image45" class="overlay">
-							<a class="overlay-close" href="#img45">
-								<img src="images/full/046-241105_0810_04.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img40" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/040-241105_0810_04.jpg" class="thumbnail" data-full="images/full/040-241105_0810_04.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Rear of stone cottage</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-05</span>
-										<span>&nbsp;&nbsp;(046-241105_0810_04.jpg)</span>
+										<span>&nbsp;&nbsp;(040-241105_0810_04.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img46" class="col-span-1 row-span-1">
-						<a href="#image46">
-								<img src="images/thumb/047-241105_0811_01.jpg" class="thumb">
-						</a>
-						<div id="image46" class="overlay">
-							<a class="overlay-close" href="#img46">
-								<img src="images/full/047-241105_0811_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img41" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/041-241105_0811_01.jpg" class="thumbnail" data-full="images/full/041-241105_0811_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Stone cottage, main house in background</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-05</span>
-										<span>&nbsp;&nbsp;(047-241105_0811_01.jpg)</span>
+										<span>&nbsp;&nbsp;(041-241105_0811_01.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img47" class="col-span-1 row-span-1">
-						<a href="#image47">
-								<img src="images/thumb/048-241105_0811_03.jpg" class="thumb">
-						</a>
-						<div id="image47" class="overlay">
-							<a class="overlay-close" href="#img47">
-								<img src="images/full/048-241105_0811_03.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img42" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/042-241105_0811_03.jpg" class="thumbnail" data-full="images/full/042-241105_0811_03.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Stone cottage</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-05</span>
-										<span>&nbsp;&nbsp;(048-241105_0811_03.jpg)</span>
+										<span>&nbsp;&nbsp;(042-241105_0811_03.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img48" class="col-span-1 row-span-1">
-						<a href="#image48">
-								<img src="images/thumb/049-241107_1102_03.jpg" class="thumb">
-						</a>
-						<div id="image48" class="overlay">
-							<a class="overlay-close" href="#img48">
-								<img src="images/full/049-241107_1102_03.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
-									<div class="top-group hidden">
-										<span>Stone cottage</span>
-										<span>Townacarra</span>
-									</div>
-									<div class="bottom-group hidden">
-										<span>2024-11-07</span>
-										<span>&nbsp;&nbsp;(049-241107_1102_03.jpg)</span>
-									</div>
-								</div>
-							</a>
-						</div>
-					</li>
-					<li id="img49" class="col-span-1 row-span-1">
-						<a href="#image49">
-								<img src="images/thumb/050-241110_1053_02.jpg" class="thumb">
-						</a>
-						<div id="image49" class="overlay">
-							<a class="overlay-close" href="#img49">
-								<img src="images/full/050-241110_1053_02.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img43" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/043-241110_1053_02.jpg" class="thumbnail" data-full="images/full/043-241110_1053_02.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Stone cottage and shed, main house in background</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-10</span>
-										<span>&nbsp;&nbsp;(050-241110_1053_02.jpg)</span>
+										<span>&nbsp;&nbsp;(043-241110_1053_02.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img50" class="col-span-1 row-span-1">
-						<a href="#image50">
-								<img src="images/thumb/051-241110_1050_01.jpg" class="thumb">
-						</a>
-						<div id="image50" class="overlay">
-							<a class="overlay-close" href="#img50">
-								<img src="images/full/051-241110_1050_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img44" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/044-241110_1050_01.jpg" class="thumbnail" data-full="images/full/044-241110_1050_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Stone shed. cottage and main house in background</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-10</span>
-										<span>&nbsp;&nbsp;(051-241110_1050_01.jpg)</span>
+										<span>&nbsp;&nbsp;(044-241110_1050_01.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img51" class="col-span-1 row-span-1">
-						<a href="#image51">
-								<img src="images/thumb/052-241028_1653_01.jpg" class="thumb">
-						</a>
-						<div id="image51" class="overlay">
-							<a class="overlay-close" href="#img51">
-								<img src="images/full/052-241028_1653_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img45" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/045-241028_1653_01.jpg" class="thumbnail" data-full="images/full/045-241028_1653_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Stream running from Ben Choona down side of property</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-10-28</span>
-										<span>&nbsp;&nbsp;(052-241028_1653_01.jpg)</span>
+										<span>&nbsp;&nbsp;(045-241028_1653_01.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img52" class="col-span-1 row-span-1">
-						<a href="#image52">
-								<img src="images/thumb/053-241104_0957_02.jpg" class="thumb">
-						</a>
-						<div id="image52" class="overlay">
-							<a class="overlay-close" href="#img52">
-								<img src="images/full/053-241104_0957_02.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img46" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/046-241104_0957_02.jpg" class="thumbnail" data-full="images/full/046-241104_0957_02.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Stream running from Ben Choona down side of property</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-04</span>
-										<span>&nbsp;&nbsp;(053-241104_0957_02.jpg)</span>
+										<span>&nbsp;&nbsp;(046-241104_0957_02.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img53" class="col-span-1 row-span-1">
-						<a href="#image53">
-								<img src="images/thumb/054-241104_0958_01.jpg" class="thumb">
-						</a>
-						<div id="image53" class="overlay">
-							<a class="overlay-close" href="#img53">
-								<img src="images/full/054-241104_0958_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img47" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/047-241104_0958_01.jpg" class="thumbnail" data-full="images/full/047-241104_0958_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Stream running from Ben Choona down side of property</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-04</span>
-										<span>&nbsp;&nbsp;(054-241104_0958_01.jpg)</span>
+										<span>&nbsp;&nbsp;(047-241104_0958_01.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img54" class="col-span-1 row-span-1">
-						<a href="#image54">
-								<img src="images/thumb/055-241110_1051_01.jpg" class="thumb">
-						</a>
-						<div id="image54" class="overlay">
-							<a class="overlay-close" href="#img54">
-								<img src="images/full/055-241110_1051_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img48" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/048-241110_1051_01.jpg" class="thumbnail" data-full="images/full/048-241110_1051_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>Garden</span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-10</span>
-										<span>&nbsp;&nbsp;(055-241110_1051_01.jpg)</span>
+										<span>&nbsp;&nbsp;(048-241110_1051_01.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img55" class="col-span-1 row-span-1">
-						<a href="#image55">
-								<img src="images/thumb/056-241027_1649_02.jpg" class="thumb">
-						</a>
-						<div id="image55" class="overlay">
-							<a class="overlay-close" href="#img55">
-								<img src="images/full/056-241027_1649_02.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img49" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/049-241027_1649_02.jpg" class="thumbnail" data-full="images/full/049-241027_1649_02.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>View from rise above house.</span>
 										<span>Culfin River leads through the Channel to the sea at left.</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-10-27</span>
-										<span>&nbsp;&nbsp;(056-241027_1649_02.jpg)</span>
+										<span>&nbsp;&nbsp;(049-241027_1649_02.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img56" class="col-span-1 row-span-1">
-						<a href="#image56">
-								<img src="images/thumb/057-241104_1322_01.jpg" class="thumb">
-						</a>
-						<div id="image56" class="overlay">
-							<a class="overlay-close" href="#img56">
-								<img src="images/full/057-241104_1322_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img50" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/050-241104_1322_01.jpg" class="thumbnail" data-full="images/full/050-241104_1322_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>View from rise above house. </span>
 										<span>Killary Harbour and Co Mayo visible to right, Clare Island, Co Mayo visible through trees.</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-04</span>
-										<span>&nbsp;&nbsp;(057-241104_1322_01.jpg)</span>
+										<span>&nbsp;&nbsp;(050-241104_1322_01.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img57" class="col-span-1 row-span-1">
-						<a href="#image57">
-								<img src="images/thumb/058-241028_1606_01.jpg" class="thumb">
-						</a>
-						<div id="image57" class="overlay">
-							<a class="overlay-close" href="#img57">
-								<img src="images/full/058-241028_1606_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img51" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/051-241028_1606_01.jpg" class="thumbnail" data-full="images/full/051-241028_1606_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>View of property from track to Loch Muc. </span>
 										<span>Channel from Culfin River visible. Mweelrea in clouds to right.</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-10-28</span>
-										<span>&nbsp;&nbsp;(058-241028_1606_01.jpg)</span>
+										<span>&nbsp;&nbsp;(051-241028_1606_01.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img58" class="col-span-1 row-span-1">
-						<a href="#image58">
-								<img src="images/thumb/059-241028_1600_01.jpg" class="thumb">
-						</a>
-						<div id="image58" class="overlay">
-							<a class="overlay-close" href="#img58">
-								<img src="images/full/059-241028_1600_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img52" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/052-241028_1600_01.jpg" class="thumbnail" data-full="images/full/052-241028_1600_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>View of property from track to Loch Muc. </span>
 										<span>Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-10-28</span>
-										<span>&nbsp;&nbsp;(059-241028_1600_01.jpg)</span>
+										<span>&nbsp;&nbsp;(052-241028_1600_01.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img59" class="col-span-1 row-span-1">
-						<a href="#image59">
-								<img src="images/thumb/060-241028_1603_01.jpg" class="thumb">
-						</a>
-						<div id="image59" class="overlay">
-							<a class="overlay-close" href="#img59">
-								<img src="images/full/060-241028_1603_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img53" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/053-241028_1603_01.jpg" class="thumbnail" data-full="images/full/053-241028_1603_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>View of property from track to Loch Muc.</span>
 										<span>Channel from Culfin River visible. Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-10-28</span>
-										<span>&nbsp;&nbsp;(060-241028_1603_01.jpg)</span>
+										<span>&nbsp;&nbsp;(053-241028_1603_01.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img60" class="col-span-1 row-span-1">
-						<a href="#image60">
-								<img src="images/thumb/061-241028_1644_01 (2).jpg" class="thumb">
-						</a>
-						<div id="image60" class="overlay">
-							<a class="overlay-close" href="#img60">
-								<img src="images/full/061-241028_1644_01 (2).jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img54" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/054-241028_1644_01 (2).jpg" class="thumbnail" data-full="images/full/054-241028_1644_01 (2).jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>View of property from track to Loch Muc.</span>
 										<span>Channel from Culfin River leads to the sea with Inish Turk on the horizon.</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-10-28</span>
-										<span>&nbsp;&nbsp;(061-241028_1644_01 (2).jpg)</span>
+										<span>&nbsp;&nbsp;(054-241028_1644_01 (2).jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img61" class="col-span-1 row-span-1">
-						<a href="#image61">
-								<img src="images/thumb/062-241104_1335_01.jpg" class="thumb">
-						</a>
-						<div id="image61" class="overlay">
-							<a class="overlay-close" href="#img61">
-								<img src="images/full/062-241104_1335_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img55" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/055-241104_1335_01.jpg" class="thumbnail" data-full="images/full/055-241104_1335_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>View of property from Ben Choona. </span>
 										<span>Glassilaun, Killary Harbour, and Mweelrea visible. Townacarra</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-04</span>
-										<span>&nbsp;&nbsp;(062-241104_1335_01.jpg)</span>
+										<span>&nbsp;&nbsp;(055-241104_1335_01.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img62" class="col-span-1 row-span-1">
-						<a href="#image62">
-								<img src="images/thumb/063-241104_1405_01.jpg" class="thumb">
-						</a>
-						<div id="image62" class="overlay">
-							<a class="overlay-close" href="#img62">
-								<img src="images/full/063-241104_1405_01.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img56" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/056-241104_1405_01.jpg" class="thumbnail" data-full="images/full/056-241104_1405_01.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>View of property from Ben Choona. </span>
 										<span>Glassilaun, Killary Harbour, and Mweelrea at right, Channel from Culfin River center. Clare Island and Achill Island Co Mayo Is visible center right.</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-04</span>
-										<span>&nbsp;&nbsp;(063-241104_1405_01.jpg)</span>
+										<span>&nbsp;&nbsp;(056-241104_1405_01.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img63" class="col-span-1 row-span-1">
-						<a href="#image63">
-								<img src="images/thumb/064-241104_1405_02.jpg" class="thumb">
-						</a>
-						<div id="image63" class="overlay">
-							<a class="overlay-close" href="#img63">
-								<img src="images/full/064-241104_1405_02.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img57" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/057-241104_1405_02.jpg" class="thumbnail" data-full="images/full/057-241104_1405_02.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>View of property from Ben Choona. </span>
 										<span>Overlooking Glassilaun, Killary Harbour, and Mweelrea</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-04</span>
-										<span>&nbsp;&nbsp;(064-241104_1405_02.jpg)</span>
+										<span>&nbsp;&nbsp;(057-241104_1405_02.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img64" class="col-span-1 row-span-1">
-						<a href="#image64">
-								<img src="images/thumb/065-241104_1426_02.jpg" class="thumb">
-						</a>
-						<div id="image64" class="overlay">
-							<a class="overlay-close" href="#img64">
-								<img src="images/full/065-241104_1426_02.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img58" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/058-241104_1426_02.jpg" class="thumbnail" data-full="images/full/058-241104_1426_02.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>View of property from Ben Choona. </span>
 										<span>Overlooking Lettergesh, Tully, and Letterfrack</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-04</span>
-										<span>&nbsp;&nbsp;(065-241104_1426_02.jpg)</span>
+										<span>&nbsp;&nbsp;(058-241104_1426_02.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
-					<li id="img65" class="col-span-1 row-span-1">
-						<a href="#image65">
-								<img src="images/thumb/066-241103_1702_02.jpg" class="thumb">
-						</a>
-						<div id="image65" class="overlay">
-							<a class="overlay-close" href="#img65">
-								<img src="images/full/066-241103_1702_02.jpg">
-								<div class="overlay-caption">
-									<span class="title">NOTES</span>
+					<li id="img59" class="col-span-1 row-span-1">
+							<img loading="lazy" src="images/thumb/059-241103_1702_02.jpg" class="thumbnail" data-full="images/full/059-241103_1702_02.jpg">
+							<div class="overlay-caption">
+								<span class="title">NOTES</span>
 									<div class="top-group hidden">
 										<span>View of property and Ben Choona.</span>
 										<span>From the Culfin River channel, Lettergesh</span>
 									</div>
 									<div class="bottom-group hidden">
 										<span>2024-11-03</span>
-										<span>&nbsp;&nbsp;(066-241103_1702_02.jpg)</span>
+										<span>&nbsp;&nbsp;(059-241103_1702_02.jpg)</span>
 									</div>
-								</div>
-							</a>
-						</div>
+							</div>
 					</li>
 				</ul>
 			</main>
-			<footer>Footer</footer>
+			<footer></footer>
+		</div>
+		<div id="lightbox" class="lightbox">
+			<img id="fullsize-image">
 		</div>
 	</body>
-	
-</script>
 <!-- vim: set foldmethod=indent: -->
