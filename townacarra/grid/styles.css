@@ -587,8 +587,10 @@ footer {
 }
 
 .gallery img.thumbnail:hover {
-  transform: scale(1.1);
-  transform: scale(0.9);
+	transform: scale(1.1);
+	transform: scale(0.98);
+	filter: sepia(60%) contrast(120%);
+
 }
 
 .lightbox {
