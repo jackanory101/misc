@@ -109,7 +109,7 @@ header h2 {
 	font-size: var(--header-h2-font-size);
 }
 .phone {
-	color: inherit;
+	color: #5993a2;
 	text-decoration: none;
 	border-bottom: dotted 1px var(--header-color);
 }
