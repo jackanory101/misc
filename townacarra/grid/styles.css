@@ -112,7 +112,7 @@ nav {
 	display: flex;
 	justify-self: right;
 	align-self: flex-end;
-	padding-right: 10%;
+	padding-right: 21%;
 }
 nav a.current {
 	color: #5993a2;
@@ -405,9 +405,13 @@ ul.gallery {
 		.gallery div.overlay-caption span:nth-last-child(2) {
 			/*margin-bottom: 60px;*/
 		}
+
 footer {
 	grid-area: footer;
 	height: 100px;
+	padding: 20px;
+	text-align: right;
+	margin-right: 6%;
 }
 
 /* MEDIA QUERIES -------------------------------------------/*
