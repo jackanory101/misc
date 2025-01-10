@@ -518,7 +518,7 @@ body {
 			--main-max-width: 100%;
 			--gallery-max-width: 100%;
 			/*--sans-font-family: Monospace;*/
-			/*--font-size: 16px;*/
+			--font-size: 16px;
 			/*--caption-font-family: Georgia;*/
 			/*--caption-font-size: 20px;*/
 
@@ -621,13 +621,14 @@ body {
 			/*right: unset !important;*/
 			min-height: unset !important;
 			width: unset !important;
-			max-width: 35% !important;
+			max-width: unset !important;
 			/*transition: unset !important;*/
 			padding: 3px !important;
 			/*border: unset !important;*/
 			/*border: unset !important;*/
 			/*border-radius: unset !important;*/
 			color: var(--caption-color);
+			background-color: var(--caption-background-color);
 		}
 		.gallery div.overlay-caption .title {
 			display: none;
@@ -643,6 +644,7 @@ body {
 	}
 	@media (hover: none) and (max-width: 750px) {
 		.gallery div.overlay-caption {
+			background-color: var(--caption-background-color);
 			top: unset !important;
 			right: unset !important;
 			width: 95vw !important;
@@ -678,6 +680,14 @@ body {
 			height:auto !important;
 			width:auto !important;
 			opacity:1 !important;
+			font-size: smaller;
+		}
+		.gallery div.overlay-caption .bottom-group {
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-end;
+			font-size: 0.7em;
+			font-family: var(--mono-font-family);
 		}
 		.gallery div.overlay-caption:hover {
 			/*display: none !important;*/
