@@ -15,13 +15,23 @@
     justify-content: center;
     min-height: 100vh;
     text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
   }
   h1 {
     margin-bottom: 30px;
-    font-size: 2.5em;
+    font-size: 2em;
     text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
   }
+  .audio-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px 0; /* add vertical space */
+    box-sizing: border-box;
+  }
   audio {
+    width: 100%;
+    height: auto; /* allow mobile to size properly */
     outline: none;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
@@ -32,11 +42,12 @@
 
 <h1>Sandude - Bob Jagger</h1>
 
-<audio controls>
-  <source src="vids/Sandude - Bob Jagger.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+<div class="audio-container">
+  <audio controls>
+    <source src="vids/Sandude - Bob Jagger.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
 
 </body>
 </html>
-
